@@ -20,6 +20,7 @@ h1, h2, h3 {
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
     width: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -33,4 +34,11 @@ h1, h2, h3 {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #005371;
+}
+
+
+/* Target the 2nd image */
+.relative:nth-child(2) img {
+    margin-left: 65px;
+    border-radius: 0px 0px 6px 0px;
 }
