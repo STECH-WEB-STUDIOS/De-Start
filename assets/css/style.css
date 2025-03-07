@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #000006 !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 2px 2px 5px #ffffff33;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #76bed8;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00739d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #005371;
+}
