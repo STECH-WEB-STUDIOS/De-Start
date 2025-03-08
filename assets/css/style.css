@@ -19,8 +19,8 @@ h1, h2, h3 {
 
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -41,4 +41,67 @@ h1, h2, h3 {
 .relative:nth-child(2) img {
     margin-left: 65px;
     border-radius: 0px 0px 6px 0px;
+}
+
+
+
+
+@media (max-width: 255px) {
+    ._three {
+        font-size: 3rem !important;
+    }
+    ._branding {
+        font-size: 1.5rem !important;
+    }
+
+    #home p {
+        font-size: 12px !important;
+    }
+
+    #letter p {
+        font-size: 12px !important;
+    }
+
+    ._cont {
+        margin-left: -25px !important;
+    }
+    ._cont i {
+        font-size: 12px;
+        margin-right: -5px;
+    }
+    ._cont h3 {
+        font-size: 14px !important;
+    }
+    ._cont p {
+        font-size: 12px !important;
+    }
+    footer p {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    #sidebar a {
+        font-size: 18px !important;
+    }
+    #sidebar button {
+        font-size: 40px !important;
+    }
+
+    #home .image {
+        display: none;
+    }
+    #letter p {
+        text-align: justify !important;
+    }
+}
+
+@media (max-height: 450px) {
+    .side-nav {
+        margin-top: -60px;
+    }
+    #sidebar a{
+        margin-bottom: -60px !important; /* Adjust the size as needed */
+        font-size: 15px !important;
+    }
 }

@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" width="144" height="144">
+	<title>logo</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-54 0h252v144h-252z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #008ed3 } 
+	</style>
+	<g id="Clip-Path: Clip-Path" clip-path="url(#cp1)">
+		<g id="Clip-Path">
+			<g>
+				<path class="s0" d="m20 125.7v-108.1c0-6 6.4-9.6 11.7-6.4l89.2 53.9c4.8 2.8 4.8 10 0 13.2l-89.2 53.9c-5.3 3.2-11.7-0.4-11.7-6.5z"/>
+			</g>
+		</g>
+	</g>
+</svg>

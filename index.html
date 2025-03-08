@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>De Start</title>
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/small_logo.svg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-
-
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
     <!-- Header -->
-    <header class="fixed w-full backdrop-blur-md z-20" data-aos="fade-down">
-        <div class="container mx-auto flex justify-between items-center px-12">
+    <header class="fixed w-full backdrop-blur-md z-20" data-aos="fade-up">
+        <div class="container mx-auto flex justify-between items-center pl-1 pr-6 sm:pl-1 sm:pr-6 md:pl-1 md:pr-6 lg:pl-1 lg:pr-6">
             <!-- Logo -->
             <div class="flex items-center space-x-3">
                 <img src="assets/images/logo.svg" alt="De Start Logo" class="h-20 sm:h-24 md:h-28 max-h-32">
@@ -50,7 +48,7 @@
         <button id="close-btn" class="absolute top-6 right-5 text-6xl text-primary">&times;</button>
 
         <!-- Menu Items -->
-        <nav class="flex flex-col space-y-[70px] text-2xl text-primary text-center">
+        <nav class="flex flex-col space-y-[70px] text-2xl text-primary text-center side-nav">
             <a href="#home" class="hover:text-[#005371] font-bold">Home</a>
             <a href="#letter" class="hover:text-[#005371] font-bold">Letter</a>
             <a href="#services" class="hover:text-[#005371] font-bold">Services</a>
@@ -65,46 +63,46 @@
     <section id="home" class="min-h-screen flex items-center px-6 bg-gradient-to-r from-white to-[#76bed8] text-primary pt-20">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-y-12 items-center">
             <!-- Description -->
-            <div class="description text-center md:text-left px-4 md:px-8" data-aos="fade-right">
-                <h1 class="first-head text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-snug sm:leading-tight mt-0 sm:mt-6">
-                    Kickstart your <br> Success!
-                </h1>
+            <div class="description text-center md:text-left px-4 md:px-8" data-aos="fade-up">
+                <h1 class="text-[5rem] sm:text-8xl md:text-[8rem] lg:text-[10rem] font-bold text-primary _three">360°</h1>
+                <h2 class="text-[3rem] sm:text-2xl md:text-3xl lg:text-[4rem] font-semibold text-primary mb-8 _branding">
+                    Branding
+                </h2>
+                <h3 class="text-base sm:text-lg md:text-xl text-gray-800 font-bold mb-4">
+                    Connecting Present to Future
+                </h3>
+                <p class="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
+                    Create a unique connection between the present and the future. At De-Start, we forge an enduring impression for brands that strive for attention, spanning across TV, Print, Radio, and Digital platforms.
+                </p>
                 <a href="#letter"
-                    class="mt-4 sm:mt-6 inline-block bg-primary hover:bg-[#76bed8] text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg shadow-lg transition duration-300"
-                    data-aos="zoom-in">
+                    class="mt-4 sm:mt-6 inline-block bg-primary hover:bg-[#005371] text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-lg shadow-lg transition duration-300"
+                    data-aos="fade up">
                     Get Started
                 </a>
             </div>
             <!-- Image -->
-            <div class="image px-4 md:px-8 flex justify-center items-center" data-aos="fade-left">
+            <div class="image px-4 md:px-8 flex justify-center items-center data-aos="fade-up">
                 <div class="relative">
-                    <img src="assets/images/0.jpg" class="rounded-lg shadow-lg w-60 sm:w-72 md:w-80 lg:w-96 mx-auto">
+                    <img src="assets/images/0.jpg" class="rounded-lg shadow-lg w-72 sm:w-80 md:w-96 lg:w-[30rem] mx-auto">
                 </div>
             </div>
         </div>
     </section>
 
 
-
-
-
-
-
-
-
     <!-- About Section -->
-    <section id="letter" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-white to-[#76bed8] px-6">
+    <section id="letter" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-white to-[#76bed8] p-12 sm:p-12 md:p-16 lg:p-24">
         <div class="max-w-4xl text-center">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight" data-aos="fade-down">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight" data-aos="fade-up">
                 Transform with De-Start
             </h2>
             <div class="mt-5">
-                <p class="mt-4 text-left text-base sm:text-lg md:text-xl text-gray-700" data-aos="fade-right" data-aos-delay="200">
+                <p class="mt-4 text-left text-base sm:text-lg md:text-xl text-gray-700" data-aos="fade-up" data-aos-delay="200">
                     Dear Friend,
                 </p>
                 <p class="mt-4 text-left text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed" data-aos="fade-up" data-aos-delay="400">
                     I hope this letter finds you well. De-Paul Institute Of Science and Technology, introducing our full-fledged branding agency, De-Start. 
-                    More than just a branding agency, De-Start embodies creativity, innovation, and strategic thinking. With expert teams in print, TV, 
+                    More than just a branding agency, De-Start embodies creativity, innovation, and strat egic thinking. With expert teams in print, TV, 
                     Radio, Digital, and Activations, we offer comprehensive solutions to elevate your brand presence across diverse platforms. 
                     Our 360-degree branding approach, based on research-backed strategies, crafts experiences that resonate with your audience, 
                     fostering lasting connections. We invite you to join us on a transformative journey and experience the change that takes your 
@@ -124,7 +122,7 @@
 
 
     <!-- Services Section -->
-    <section id="services" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-white to-[#76bed8] p-6 sm:p-10 lg:p-24">
+    <section id="services" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-white to-[#76bed8] px-3 py-12 sm:py-12 md:py-16 lg:py-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary text-center mb-8 sm:mb-12" data-aos="fade-up">
                 Our Services
@@ -198,71 +196,133 @@
                 Our Team
             </h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-                
-                <!-- Left Section -->
-                <div data-aos="fade-right">
-                    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary">360°</h1>
-                    <h2 class="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-4">
-                        Branding
-                    </h2>
-                    <h3 class="text-base sm:text-lg md:text-xl text-gray-800 font-bold mb-4">
-                        Connecting Present to Future
-                    </h3>
-                    <p class="text-sm sm:text-base md:text-lg text-gray-700 mb-6 leading-relaxed">
-                        Create a unique connection between the present and the future. At De-Start, we forge an enduring impression for brands that strive for attention, spanning across TV, Print, Radio, and Digital platforms.
-                    </p>
-                </div>
-
-                <!-- Right Section - Team Members -->
-                <div class="relative space-y-6 bg-white/25 p-4 sm:p-6 lg:p-8 rounded-lg w-full" data-aos="fade-left">
+            <div class="text-center">
+                <!-- Team Members -->
+                <div class="relative space-y-6 p-4 sm:p-6 lg:p-8 rounded-lg w-full" data-aos="fade-up">
+                    
                     <!-- Team Member 1 -->
-                    <div class="relative flex flex-col items-center">
-                        <a href="#">
-                            <div class="text-center mt-2 sm:mt-4">
-                                <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-primary">Sanil Kalathil</h3>
-                                <p class="text-sm sm:text-base md:text-lg text-gray-700">Director</p>
+                    <div class="flex flex-col sm:flex-row items-center bg-white shadow-lg rounded-lg p-6 sm:p-8 w-full max-w-6xl mx-auto" data-aos="fade-up">
+                        <!-- Avatar - Left -->                        
+                        <img src="assets/images/sanil.png" alt="Sanil Kalathil" class="w-32 sm:w-48 -top-4 rounded-lg _sanil">
+
+                        <!-- Info - Right -->
+                        <div class="sm:ml-6 mt-4 sm:mt-0 text-left flex-1 max-w-8xl">
+                            <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">Sanil Kalathil</h3>
+                            <p class="text-sm sm:text-base md:text-lg text-gray-700 font-medium">Director</p>
+
+                            <div class="relative mt-2" style="max-width: 100%; overflow: hidden;">
+                                <p class="text-sm text-gray-600 line-clamp-3" id="desc-sanil">
+                                    Sanil Kalathil, our guiding force and creative director, is best described as an enthusiastic commercial filmmaker and video aficionado. Commencing his journey in Indian cinema in 1993, Sanil swiftly made a mark as a filmmaker. In 2003, he unveiled the Malayalam feature film "Uthara," earning global acclaim and screening at national and international film festivals.
+                                </p>
+                                <p class="text-sm text-gray-600 hidden" id="full-desc-sanil">
+                                    Sanil Kalathil, our guiding force and creative director, is best described as an enthusiastic commercial filmmaker and video aficionado. Commencing his journey in Indian cinema in 1993, Sanil swiftly made a mark as a filmmaker. In 2003, he unveiled the Malayalam feature film "Uthara," earning global acclaim and screening at national and international film festivals. 
+                                    <br><br>
+                                    With an impressive portfolio of over 200 commercials, Sanil has lent his directorial vision to renowned companies such as Daily Delight, Joy Alukkas, Vinverthj and Cutiepie. His second feature film, "Marconi Mathai," released in 2019, emerged as a commercial success with its unique narrative starring Jayaram and Vijay Sethupathi. Beyond his film ventures, Sanil now serves as the mentor and creative director at De-Start, inspiring and leading the creative team. His accolades include the UNICEF Project Award for the Malayala Manorama daily's documentary " Palathulli" and a Kerala Chalachithra Academy award nomination for " Best Women's Film" for " UT HARA. " His contributions extend to winning the Mathrubumi Art State Award in 2004 for the music program "AUTOGRAPH " and the Kerala State's Best Tele-Serial Award in 2011 for the fiction television series "JOHN DE PANIC." His legacy continues with the launch of the Mazhavil Manorama Channel, with film festivals worldwide appreciating and commemorating his masterpieces.
+                                </p>
                             </div>
-                        </a>
+
+                            <button class="text-blue-600 text-sm mt-2 focus:outline-none" onclick="toggleDescription('desc-sanil')">
+                                View More
+                            </button>
+                        </div>
                     </div>
 
                     <!-- Team Member 2 -->
-                    <div class="relative flex flex-col items-center">
-                        <a href="#">
-                            <div class="text-center mt-2 sm:mt-4">
-                                <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-primary">Vinod Krishna</h3>
-                                <p class="text-sm sm:text-base md:text-lg text-gray-700">Mentor</p>
+                    <div class="flex flex-col sm:flex-row items-center bg-white shadow-lg rounded-lg p-6 sm:p-8 w-full max-w-6xl mx-auto" data-aos="fade-up">                        
+                        <img src="assets/images/vinod.png" alt="Vinod Krishna" class="w-32 sm:w-48 -top-4 rounded-lg _vinod">
+
+                        <div class="sm:ml-6 mt-4 sm:mt-0 text-left flex-1 max-w-8xl">
+                            <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">Vinod Krishna</h3>
+                            <p class="text-sm sm:text-base md:text-lg text-gray-700 font-medium">Mentor</p>
+
+                            <div class="relative mt-2" style="max-width: 100%; overflow: hidden;">
+                                <p class="text-sm text-gray-600 line-clamp-3" id="desc-vinod">
+                                    A versatile writer, filmmaker, and magazine editor, he was born in Bihar to Malayali parents. Drected Movie Elam, which won the Best International Feature Film Award at the Golden State Film Festival in Hollywood and the Bayamon International Film Festival in Puerto Rico,. Alumni Of the New York Film Academia I attended a crash course and film workshops at Universal Studios, LA. The recently published novel 9MM BERETTA, based on Gandhi Murder, is a best-selling DC book that won the Churukad Awsrd and TKC Vaduthala awards.
+                                </p>
+                                <p class="text-sm text-gray-600 hidden" id="full-desc-vinod">
+                                    A versatile writer, filmmaker, and magazine editor, he was born in Bihar to Malayali parents. Drected Movie Elam, which won the Best International Feature Film Award at the Golden State Film Festival in Hollywood and the Bayamon International Film Festival in Puerto Rico,. Alumni Of the New York Film Academia I attended a crash course and film workshops at Universal Studios, LA. The recently published novel 9MM BERETTA, based on Gandhi Murder, is a best-selling DC book that won the Churukad Awsrd and TKC Vaduthala awards.
+                                    <br><br>
+                                    Poetry installation is his brain child, and it was done in Kochi in 2015, 2016, and 2017. Ranganath Ravee, the award-winning sound engineer, designed the audio for this unique artwork. This was appreciated both by the public and the literati. It was inaugurated by Mallika Sarabhai and holds a place in the Limca Book of World Records. Later, actor Joy Mathew became the mentor of this art form.
+                                    <br><br>
+                                    He started writing short stories during his college days. His stories clearly share the anxieties of living in an overly materialistic world and the complex realms of man-woman relationships. His anthology of stories, 'Kannusutram', was published in 2016 and has been well received in literary circles. Urumbu Desham was the second short story collection. At the age of 24, he directed the short movie 'Mayyankkalam', which screened at the Torrento activist film festival. The movie's focus is on the crucial issue of the day: "Water. The much-acclaimed short movie was screened at the World Water Forum, Water & Film Event, Mexico, and the World Social Forum, Mumbai, in 2003. It shot many ad films for various clients, including one of Parineeti Chopra and co-director GK. Now a meta-certified digital marketing strategist
+                                </p>
                             </div>
-                        </a>
+
+                            <button class="text-blue-600 text-sm mt-2 focus:outline-none" onclick="toggleDescription('desc-vinod')">
+                                View More
+                            </button>
+                        </div>
                     </div>
 
                     <!-- Team Member 3 -->
-                    <div class="relative flex flex-col items-center">
-                        <a href="#">
-                            <div class="text-center mt-2 sm:mt-4">
-                                <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-primary">Sajimon PK</h3>
-                                <p class="text-sm sm:text-base md:text-lg text-gray-700">Mentor</p>
+                    <div class="flex flex-col sm:flex-row items-center bg-white shadow-lg rounded-lg p-6 sm:p-8 w-full max-w-6xl mx-auto" data-aos="fade-up">                        
+                        <img src="assets/images/saji.png" alt="Member 3" class="w-32 sm:w-48 -top-4 rounded-lg _saji">
+
+                        <div class="sm:ml-6 mt-4 sm:mt-0 text-left flex-1 max-w-8xl">
+                            <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">Sajimon PK</h3>
+                            <p class="text-sm sm:text-base md:text-lg text-gray-700 font-medium">Mentor</p>
+
+                            <div class="relative mt-2" style="max-width: 100%; overflow: hidden;">
+                                <p class="text-sm text-gray-600 line-clamp-3" id="desc-member3">
+                                    A highly accomplished professional with an illustrious 18-year career in the field of Public Relations and Advertising. He holds a Post Graduate degree in Public Relations and Advertising from the esteemed Kerala Media Academy, where he earned recognition as a Gold Medalist. Over the course of his career, Sajimon has demonstrated his creative and strategic expertise across various sectors.
+                                </p>
+                                <p class="text-sm text-gray-600 hidden" id="full-desc-member3">
+                                    A highly accomplished professional with an illustrious 18-year career in the field of Public Relations and Advertising. He holds a Post Graduate degree in Public Relations and Advertising from the esteemed Kerala Media Academy, where he earned recognition as a Gold Medalist. Over the course of his career, Sajimon has demonstrated his creative and strategic expertise across various sectors.
+                                    <br><br>
+                                    In his initial years, Sajimon played a pivotal role at Matri Advertising, where he served as Ideation Supervisor for seven years. His responsibilities covered a diverse array of industries, including FMCG, Telecom, and services. Notable brands in his portfolio at Matri include Reliance Mobile, V-Guard, AVT, Mathrubhumi, Club FM, Dhathri, and Veegaland. His versatility as both a writer and a strategist became evident during this period.
+                                    <br><br>
+                                    Sajimon later took on the role of Head-Copy at Hammer India, contributing his creative insights to brands such as Cycle Agarbathies, Sobha Developers, and Paragon. Currently, he holds the position of Group Creative Head at Allways Branding, overseeing an extensive portfolio that includes LG India, Renai Group, myG, Sylcon, Gulf Madhyamam, Daily Delight, and MAS Cardamom. Alongside his creative endeavors, Sajimon serves as the Director at Team UTC and mentors aspiring professionals through De-Start, showcasing his leadership and mentoring capabilities.
+                                </p>
                             </div>
-                        </a>
+
+                            <button class="text-blue-600 text-sm mt-2 focus:outline-none" onclick="toggleDescription('desc-member3')">
+                                View More
+                            </button>
+                        </div>
                     </div>
 
                     <!-- Team Member 4 -->
-                    <div class="relative flex flex-col items-center">
-                        <a href="#">
-                            <div class="text-center mt-2 sm:mt-4">
-                                <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-primary">Sarat Mohan</h3>
-                                <p class="text-sm sm:text-base md:text-lg text-gray-700">Head - Marketing Operations</p>
+                    <div class="flex flex-col sm:flex-row items-center bg-white shadow-lg rounded-lg p-6 sm:p-8 w-full max-w-6xl mx-auto" data-aos="fade-up">                        
+                        <img src="assets/images/sarat.png" alt="Member 4" class="w-32 sm:w-48 -top-4 rounded-lg _sarat">
+
+                        <div class="sm:ml-6 mt-4 sm:mt-0 text-left flex-1 max-w-8xl">
+                            <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">Sarat Mohan</h3>
+                            <p class="text-sm sm:text-base md:text-lg text-gray-700 font-medium">Head-Marketing operations</p>
+
+                            <div class="relative mt-2" style="max-width: 100%; overflow: hidden;">
+                                <p class="text-sm text-gray-600 line-clamp-3" id="desc-member4">
+                                    With over 1 5 years of diverse experience spanning international marketing, sales, creative direction, event coordination, office administration, and hospitality management, Sarat Mohan has established himself as a dynamic professional with a keen eye for strategy and innovation. Holding a Postgraduate degree in MBA, his career journey reflects a seamless blend of expertise across multiple industries.                                    
+                                </p>
+                                <p class="text-sm text-gray-600 hidden" id="full-desc-member4">
+                                    Sarat began his professional career in 2007 as an Administration Coordinator in Al Ain, UAE. In 2011, he returned to Kerala, embarking on a new chapter in the advertising industry. His ability to strategize and execute impactful campaigns led him to coordinate numerous national-level events, handling both government and private sector projects.
+                                    <br><br>
+                                    With a natural inclination towards creativity and marketing, Sarat expanded his expertise into visual media, producing TVC advertisements, corporate videos, and government project videos. Over the past 10 years in advertising and marketing, he has mastered the art of strategic brand positioning, ensuring the right placement of products and services in the market. 
+                                    <br><br>
+                                    Seeking to broaden his expertise, Sarat ventured into hospitality, taking on the role of General Manager at 3-star and 4-star hotels. Leveraging his branding and marketing acumen, he introduced innovative ideas and strategic visions that significantly enhanced the hotels' market presence and profitability.
+                                    <br><br>
+                                    Currently, Sarat serves as the Chief Marketing Officer at De-Start, the incubation center of De Paul Institute of Science and Technology. With his vast experience across multiple industries, he is poised to drive growth, innovation, and strategic success for the organization and its associates. His multifaceted career journey makes him a valuable leader, continuously pushing boundaries and fostering excellence in every field he steps into.
+                                </p>
                             </div>
-                        </a>
+
+                            <button class="text-blue-600 text-sm mt-2 focus:outline-none" onclick="toggleDescription('desc-member4')">
+                                View More
+                            </button>
+                        </div>
                     </div>
+
                 </div>
-
             </div>
+            
         </div>
-    </section>     
+    </section>
 
 
-    <section id="contact" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-white to-[#76bed8] p-6" data-aos="fade-up">
+    <script>
+        
+    </script>
+
+
+    <section id="contact" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-white to-[#76bed8] p-6">
         <div class="container mx-auto px-6 max-w-5xl">
             <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary text-center mb-8 sm:mb-12" data-aos="fade-up">
                 Get in Touch
@@ -270,7 +330,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <!-- Contact Details -->
-                <div class="space-y-6">
+                <div class="space-y-6 _cont" data-aos="fade-up">
                     <div class="flex items-center space-x-4">
                         <i class="fa-solid fa-comment text-primary text-xl sm:text-2xl"></i>
                         <div>
@@ -301,7 +361,7 @@
                     </div>
 
                     <!-- Social Media Links -->
-                    <div class="flex space-x-6 mt-6">
+                    <div class="flex space-x-6 mt-6" data-aos="fade-up">
                         <a href="#" class="text-primary text-xl sm:text-2xl hover:text-[#005371]"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="text-primary text-xl sm:text-2xl hover:text-[#005371]"><i class="fab fa-twitter"></i></a>
                         <a href="#" class="text-primary text-xl sm:text-2xl hover:text-[#005371]"><i class="fab fa-linkedin"></i></a>
@@ -310,7 +370,7 @@
                 </div>
 
                 <!-- Map Section -->
-                <div class="h-64 md:h-full rounded-lg overflow-hidden shadow-lg">
+                <div class="h-64 md:h-full rounded-lg overflow-hidden shadow-lg" data-aos="fade-up">
                     <iframe 
                     class="w-full h-full"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.564707503114!2d76.37421867503355!3d10.17698558993763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08066d8c2c2ceb%3A0xbfb96c18873c470f!2sDe%20Paul%20Institute%20of%20Science%20%26%20Technology%20(DiST)!5e1!3m2!1sen!2sin!4v1741340387102!5m2!1sen!2sin" 
@@ -320,13 +380,13 @@
             </div>
 
             <!-- Joint Venture Logos -->
-            <div class="flex flex-col md:flex-row justify-between items-center mt-16">
+            <div class="flex flex-col md:flex-row justify-between items-center mt-16" data-aos="fade-up">
                 <!-- Joint Venture (Left) -->
                 <div class="text-center md:text-left">
                     <h4 class="text-sm sm:text-base md:text-lg font-semibold text-gray-800 mb-2">
                         A Joint Venture
                     </h4>
-                    <div class="flex gap-6">
+                    <div class="grid grid-cols-2 gap-6">
                         <img src="assets/images/dist.png" alt="DiST" class="w-16 sm:w-20 md:w-24 lg:w-28">
                         <img src="assets/images/utc.png" alt="UTC" class="w-16 sm:w-20 md:w-24 lg:w-28">
                     </div>
@@ -346,7 +406,7 @@
 
 
     <!-- Footer -->
-    <footer class="text-center p-3 bg-gradient-to-r from-white to-[#76bed8]" data-aos="fade-up">
+    <footer class="text-center p-3 bg-gradient-to-r from-white to-[#76bed8]">
         <p>&copy; 2025 De Start. All rights reserved.</p>
     </footer>
 
