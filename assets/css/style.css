@@ -80,7 +80,7 @@ h1, h2, h3 {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 640px) {
     #sidebar a {
         font-size: 18px !important;
     }
@@ -91,7 +91,10 @@ h1, h2, h3 {
     #home .image {
         display: none;
     }
-    #letter p {
+    #about p {
+        text-align: justify !important;
+    }
+    .team_p {
         text-align: justify !important;
     }
 }
