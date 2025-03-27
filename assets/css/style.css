@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #000006 !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 2px 2px 5px #ffffff33;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #76bed8;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00739d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #005371;
+}
+
+
+/* Target the 2nd image */
+.relative:nth-child(2) img {
+    margin-left: 65px;
+    border-radius: 0px 0px 6px 0px;
+}
+
+header {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header img,
+nav ul li a,
+#menu-btn i {
+    transition: all 0.3s ease-in-out;
+}
+
+
+#home {
+    position: relative;
+    background-image: url("https://i.ibb.co/zg7SXpQ/image.png");
+    background-size: cover;
+    background-position: center top; /* Moves image downward */
+    background-repeat: no-repeat;
+}
+
+/* Semi-transparent overlay to reduce background opacity */
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000048; /* Adjust transparency (0.1 to 1) */
+    z-index: 1;
+}
+
+/* Ensuring text remains above overlay */
+#home > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+@media (max-width: 255px) {
+    ._three {
+        font-size: 3rem !important;
+    }
+    ._branding {
+        font-size: 1.5rem !important;
+    }
+
+    #home p {
+        font-size: 12px !important;
+    }
+
+    #letter p {
+        font-size: 12px !important;
+    }
+
+    ._cont {
+        margin-left: -25px !important;
+    }
+    ._cont i {
+        font-size: 12px;
+        margin-right: -5px;
+    }
+    ._cont h3 {
+        font-size: 14px !important;
+    }
+    ._cont p {
+        font-size: 12px !important;
+    }
+    footer p {
+        font-size: 12px !important;
+    }
+}
+
+
+@media (max-width: 640px) {
+    #sidebar a {
+        font-size: 18px !important;
+    }
+    #sidebar button {
+        font-size: 40px !important;
+    }
+
+    #home .image {
+        display: none;
+    }
+    #home {
+        background-position: 70% 0%; /* Moves image downward */
+    }
+    #about p {
+        text-align: justify !important;
+    }
+    .team_p {
+        text-align: justify !important;
+    }
+}
+
+@media (max-height: 450px) {
+    .side-nav {
+        margin-top: -60px;
+    }
+    #sidebar a{
+        margin-bottom: -60px !important; /* Adjust the size as needed */
+        font-size: 15px !important;
+    }
+}
